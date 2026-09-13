@@ -7,6 +7,7 @@ n，第二行 n 个整数。 输出：第二大元素的值 或 -1。 示例：4
 1 1 -> -1 考察点：双哨兵变量（max1 和
 max2）的初始化与更新逻辑、数组元素不相等时的严格判断。
 */
+#include <cstdint>
 #include <iostream>
 #include <vector>
 using namespace std;
